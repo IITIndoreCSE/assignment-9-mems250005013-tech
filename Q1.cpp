@@ -22,10 +22,6 @@ int main()
     display.cost[3]=75;
     display.cost[4]=45;
 
-    cout<<"Enter the properties of items"<<endl;
-
-    for(int i=0;i<5;i++)
-        cin>>display.cost[i];
 
     cout<<"Details of the items whose cost is greater than 50"<<endl;
 
